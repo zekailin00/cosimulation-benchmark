@@ -1,0 +1,5 @@
+*.bin
+*.txt
+sample-x86
+sample-riscv
+*.socket
