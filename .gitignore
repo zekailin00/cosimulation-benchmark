@@ -3,3 +3,4 @@
 sample-x86
 sample-riscv
 *.socket
+*.pocl

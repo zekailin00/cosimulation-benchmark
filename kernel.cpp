@@ -238,7 +238,7 @@ Softmax* Softmax::GetSoftmax(Context* ctx, uint32_t length)
     uint8_t *kernel_bin = NULL;
 
     // Read kernel binary from file  
-    if (0 != read_kernel_file("softmax.pocl", &kernel_bin, &kernel_size))
+    if (0 != read_kernel_file("/scratch/zekailin00/cosimulation-benchmark/softmax.pocl", &kernel_bin, &kernel_size))
         return nullptr;
 
     size_t nbytes = (int)length * sizeof(float);
